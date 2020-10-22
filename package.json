@@ -4,7 +4,8 @@
   "description": "Mern stack app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "keywords": [
     "mern",
@@ -14,7 +15,12 @@
   "author": "Sergey Yakimov <s.yakimov87@yandex.ru>",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.2",
     "express": "^4.17.1",
     "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
   }
 }
