@@ -1,4 +1,5 @@
 {
   "port": 5000,
+  "jwtSecret": "apple is apple",
   "mongoUri": "mongodb+srv://sergey:1a2b3c4d@cluster0.bmaa3.mongodb.net/links?retryWrites=true&w=majority"
 }
