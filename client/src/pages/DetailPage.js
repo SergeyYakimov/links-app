@@ -6,7 +6,7 @@ import {Loader} from '../components/Loader';
 import {LinkCard} from '../components/LinkCard';
 
 export const DetailPage = () => {
-  const token = useContext(AuthContext)
+  const {token} = useContext(AuthContext)
   const {request, loading} = useHttp()
   const [link, setLink] = useState(null)
   const linkId = useParams().id
